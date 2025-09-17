@@ -8,10 +8,10 @@ body {
 
 .container {
     width: 90%;
-    max-width: 500px; /* Reduzindo o tamanho para telas menores */
+    max-width: 500px;
     margin: 50px auto;
     padding: 25px;
-    background: rgba(0, 0, 0, 0.8); /* Escuro para contraste */
+    background: rgba(0, 0, 0, 0.8);
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
     text-align: center;
@@ -108,6 +108,37 @@ a {
 a:hover {
     color: #ffea00;
     text-decoration: underline;
+}
+
+.money-image {
+    width: 100px;
+    margin-top: 20px;
+    animation: bounce 1s infinite alternate;
+}
+
+.bonus-icon {
+    width: 50px;
+    margin-top: 20px;
+    animation: bounce 1s infinite alternate;
+}
+
+.money-bonus {
+    margin-top: 30px;
+    background-color: rgba(255, 223, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 480px) {
