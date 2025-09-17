@@ -1,17 +1,17 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ff7b00, #f60073); /* Gradiente mais quente e energizante */
+    background: linear-gradient(135deg, #ff7b00, #f60073);
     margin: 0;
     padding: 0;
     color: white;
 }
 
 .container {
-    width: 80%;
-    max-width: 800px;
-    margin: 100px auto;
-    padding: 40px;
-    background: rgba(0, 0, 0, 0.7); /* Mais escuro para contraste */
+    width: 90%;
+    max-width: 500px; /* Reduzindo o tamanho para telas menores */
+    margin: 50px auto;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.8); /* Escuro para contraste */
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
     text-align: center;
@@ -19,38 +19,38 @@ body {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 2.8em;
     font-weight: bold;
-    margin-bottom: 20px;
-    color: #ffeb3b; /* Amarelo vibrante para destaque */
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
+    color: #ffeb3b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 p {
-    font-size: 1.6em;
-    margin: 20px 0;
-    line-height: 1.8;
+    font-size: 1.4em;
+    margin: 15px 0;
+    line-height: 1.6;
     color: #ffffff;
 }
 
 button {
-    padding: 15px 35px;
-    font-size: 1.6em;
+    padding: 12px 25px;
+    font-size: 1.4em;
     color: #fff;
-    background: linear-gradient(135deg, #1e88e5, #d32f2f); /* Azul e vermelho combinados */
+    background: linear-gradient(135deg, #1e88e5, #d32f2f);
     border: none;
-    border-radius: 40px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 button:hover {
-    background: linear-gradient(135deg, #0288d1, #c2185b); /* Mudança de tom ao passar o mouse */
+    background: linear-gradient(135deg, #0288d1, #c2185b);
     transform: scale(1.1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
 button:focus {
@@ -58,17 +58,17 @@ button:focus {
 }
 
 button:active {
-    background: linear-gradient(135deg, #f44336, #8e24aa); /* Cor ativa mais intensa */
+    background: linear-gradient(135deg, #f44336, #8e24aa);
     transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 ul {
     text-align: left;
-    font-size: 1.3em;
-    line-height: 1.8;
+    font-size: 1.2em;
+    line-height: 1.7;
     margin-left: 20px;
-    color: #ff9800; /* Cor laranja para os itens da lista */
+    color: #ff9800;
 }
 
 ul li {
@@ -92,32 +92,32 @@ ul li {
 }
 
 h2 {
-    font-size: 2.2em;
-    margin-top: 30px;
-    color: #00e5ff; /* Azul claro para um contraste fresco */
+    font-size: 2em;
+    margin-top: 20px;
+    color: #00e5ff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 a {
-    color: #76ff03; /* Verde vibrante para links */
+    color: #76ff03;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ffea00; /* Amarelo ao passar o mouse */
+    color: #ffea00;
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .container {
         width: 90%;
-        padding: 25px;
+        padding: 20px;
     }
 
     h1 {
-        font-size: 2.5em;
+        font-size: 2.4em;
     }
 
     p, h2 {
@@ -125,6 +125,7 @@ a:hover {
     }
 
     button {
-        font-size: 1.4em;
+        font-size: 1.3em;
+        padding: 10px 20px;
     }
 }
